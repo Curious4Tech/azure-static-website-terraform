@@ -1,4 +1,3 @@
-
 # Deploy a Static Website on Azure using Terraform
 
 This guide will walk you through the steps to deploy a static website on Azure using a Storage Account and Terraform.
@@ -17,48 +16,68 @@ Clone this repository to your local machine:
 ```bash
 git clone <repository-url>
 ```
+
+
 ### 2. Configure Azure Provider
 Ensure you are logged in to Azure CLI:
 
 ```bash
 az login
 ```
-### 3. Initialize Terraform
+### 3. Set the Azure Subscription
+If you have multiple Azure subscriptions, you need to set the subscription you want to use. Run the following command to set the subscription:
+
+```bash
+az account set --subscription "your-subscription-id"
+```
+
+### 4. Review and Modify Configuration
+Review the **`main.tf`** file and modify the configuration if necessary. Ensure the **`subscription_id`** is set to your Azure subscription ID.
+
+### 5. Initialize Terraform
 Initialize the Terraform configuration:
 
 ```bash
 terraform init
 ```
-### 4. Review and Modify Configuration
-Review the `main.tf` file and modify the configuration if necessary. Ensure the `subscription_id` is set to your Azure subscription ID.
 
-### 5. Apply the Terraform Configuration
+### 6. Validate the Configuration
+Validate the Terraform configuration to check for syntax errors and verify that everything is set up correctly:
+
+```bash
+terraform validate
+```
+
+### 7. Plan the Deployment
+
+Run **`terraform plan`** to see the resources that will be created:
+
+```bash
+terraform plan
+```
+This will show you the execution plan and what changes will be made to your environment.
+
+### 8. Apply the Terraform Configuration
 Apply the Terraform configuration to create the resources:
 
 ```bash
 terraform apply
 ```
 
-Type `yes` when prompted to confirm the creation of resources.
+Type **`yes`** when prompted to confirm the creation of resources.
 
-### 6. Verify Deployment
+### 9. Verify Deployment
 Once the deployment is complete, you can verify the static website by navigating to the URL provided by the Azure Storage Account.
-
-## Files in the Repository
-
-- `main.tf`: Contains the Terraform configuration for deploying the static website.
-- `index.html`: The main HTML file for the static website.
-- `404.html`: The custom 404 error page for the static website.
 
 ## Terraform Configuration
 
-Here is a brief overview of the Terraform configuration in `main.tf`:
+Here is a brief overview of the Terraform configuration in **`main.tf`**:
 
 - **Provider configuration**: Specifies Azure as the cloud provider.
 - **Storage Account**: Creates an Azure Storage Account.
 - **Static Website configuration**: Configures the Storage Account to host a static website.
 
-## Cleanup
+## 10 Cleanup
 
 To delete the resources created by Terraform, run:
 
@@ -66,7 +85,10 @@ To delete the resources created by Terraform, run:
 terraform destroy
 ```
 
-Type `yes` when prompted to confirm the deletion of resources.
+Type **`yes`** when prompted to confirm the deletion of resources.
+
+### 11 . Verify Deletion
+Once the deletion is complete, you can verify  by navigating to **`Resource Groups`** in the Azure Portal.
 
 ## Conclusion
 
