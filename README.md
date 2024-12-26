@@ -79,4 +79,3 @@ You have successfully deployed a static website on Azure using Terraform. For mo
 - [Azure Documentation](https://docs.microsoft.com/en-us/azure/)
 
 Feel free to customize the HTML files and Terraform configuration to suit your needs. Happy deploying!
-```
