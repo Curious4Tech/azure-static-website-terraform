@@ -71,7 +71,7 @@ terraform apply
 
 Type **`yes`** when prompted to confirm the creation of resources.
 
-![image](https://github.com/user-attachments/assets/bad66200-fb14-4559-a2ad-c6ad6fa3c51a)
+![image](https://github.com/user-attachments/assets/5b6c0c5d-b7e8-44ff-bba6-ad4de038e984)
 
 ### 9. Verify Deployment
 Once the deployment is complete, you can verify the static website by navigating to the URL provided by the Azure Storage Account.
