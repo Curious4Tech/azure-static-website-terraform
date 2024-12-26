@@ -81,7 +81,7 @@ Go to **`Resource Groups>static-website-rg>mywebsite673543`
 
 Now click on your storage accout in this example **`mywebsite673543`**. Under **`Data management`**, click on **`Static website`**, then copy and paste on your browser the **`Primary Endpoint`**.
 
-![image](https://github.com/user-attachments/assets/dbdb6edd-314c-4e91-9f9f-990bfa2c5165)
+![cas1](https://github.com/user-attachments/assets/0c72e128-a62d-4835-aa5b-146dd1fe79af)
 
 Boom !! Bravo!! You have now your static website running smoohtly.
 
