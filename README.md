@@ -111,6 +111,8 @@ Type **`yes`** when prompted to confirm the deletion of resources.
 ### 11 . Verify Deletion
 Once the deletion is complete, you can verify  by navigating to **`Resource Groups`** in the Azure Portal.
 
+![image](https://github.com/user-attachments/assets/137da7ab-3fcb-49f6-b420-bec49388ef45)
+
 ## Conclusion
 
 You have successfully deployed a static website on Azure using Terraform. For more information on Terraform and Azure, refer to the official documentation:
