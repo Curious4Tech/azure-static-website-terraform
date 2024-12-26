@@ -11,7 +11,7 @@ This guide will walk you through the steps to deploy a static website on Azure u
 ## Step-by-Step Guide
 
 ### 1. Clone the Repository
-Clone this repository to your local machine:
+Clone this repository to your local machine and move to the directory cloned:
 
 ```bash
 git clone <repository-url>
