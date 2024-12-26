@@ -85,7 +85,7 @@ Now click on your storage accout in this example **`mywebsite673543`**. Under **
 
 Boom !! Bravo!! You have now your static website running smoohtly.
 
-![image](https://github.com/user-attachments/assets/b62ef92f-2c30-48be-be76-44ce9cd769aa)
+![image](https://github.com/user-attachments/assets/85e7af17-8e62-410a-beca-00de157bb58e)
 
  ## Terraform Configuration
 
