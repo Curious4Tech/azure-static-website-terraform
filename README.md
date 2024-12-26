@@ -14,9 +14,9 @@ This guide will walk you through the steps to deploy a static website on Azure u
 Clone this repository to your local machine and move to the directory cloned:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Curious4Tech/azure-static-website-terraform.git
+cd azure-static-website-terraform
 ```
-
 
 ### 2. Configure Azure Provider
 Ensure you are logged in to Azure CLI:
