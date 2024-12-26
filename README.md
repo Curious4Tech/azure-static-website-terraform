@@ -41,12 +41,15 @@ Initialize the Terraform configuration:
 terraform init
 ```
 
+![image](https://github.com/user-attachments/assets/7afe0bbd-8435-4359-8a25-2ae1b6e89e98)
+
 ### 6. Validate the Configuration
 Validate the Terraform configuration to check for syntax errors and verify that everything is set up correctly:
 
 ```bash
 terraform validate
 ```
+![image](https://github.com/user-attachments/assets/7fdd6ead-2bc2-4a75-bf9e-5e8f4a7dafcb)
 
 ### 7. Plan the Deployment
 
@@ -57,6 +60,8 @@ terraform plan
 ```
 This will show you the execution plan and what changes will be made to your environment.
 
+![image](https://github.com/user-attachments/assets/b233cb06-7787-4df5-8183-df5dc0610ccf)
+
 ### 8. Apply the Terraform Configuration
 Apply the Terraform configuration to create the resources:
 
@@ -66,10 +71,23 @@ terraform apply
 
 Type **`yes`** when prompted to confirm the creation of resources.
 
+![image](https://github.com/user-attachments/assets/bad66200-fb14-4559-a2ad-c6ad6fa3c51a)
+
 ### 9. Verify Deployment
 Once the deployment is complete, you can verify the static website by navigating to the URL provided by the Azure Storage Account.
+Go to **`Resource Groups>static-website-rg>mywebsite673543`
 
-## Terraform Configuration
+![image](https://github.com/user-attachments/assets/cb4dffe2-e796-45ab-9d1c-56e7eb3d8b8e)
+
+Now click on your storage accout in this example **`mywebsite673543`**. Under **`Data management`**, click on **`Static website`**, then copy and paste on your browser the **`Primary Endpoint`**.
+
+![image](https://github.com/user-attachments/assets/dbdb6edd-314c-4e91-9f9f-990bfa2c5165)
+
+Boom !! Bravo!! You have now your static website running smoohtly.
+
+![image](https://github.com/user-attachments/assets/b62ef92f-2c30-48be-be76-44ce9cd769aa)
+
+ ## Terraform Configuration
 
 Here is a brief overview of the Terraform configuration in **`main.tf`**:
 
