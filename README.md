@@ -105,7 +105,8 @@ terraform destroy
 
 Type **`yes`** when prompted to confirm the deletion of resources.
 
-![image](https://github.com/user-attachments/assets/a3283b95-8796-4e2f-ae36-2d342c8df233)
+![image](https://github.com/user-attachments/assets/27b0c4a6-7347-4f7a-97d2-114705eb1d14)
+
 
 ### 11 . Verify Deletion
 Once the deletion is complete, you can verify  by navigating to **`Resource Groups`** in the Azure Portal.
