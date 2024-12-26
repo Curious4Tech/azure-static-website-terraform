@@ -17,21 +17,18 @@ Clone this repository to your local machine:
 ```bash
 git clone <repository-url>
 ```
-
-### 2. Initialize Terraform
-Initialize the Terraform configuration:
-
-```bash
-terraform init
-```
-
-### 3. Configure Azure Provider
+### 2. Configure Azure Provider
 Ensure you are logged in to Azure CLI:
 
 ```bash
 az login
 ```
+### 3. Initialize Terraform
+Initialize the Terraform configuration:
 
+```bash
+terraform init
+```
 ### 4. Review and Modify Configuration
 Review the `main.tf` file and modify the configuration if necessary. Ensure the `subscription_id` is set to your Azure subscription ID.
 
