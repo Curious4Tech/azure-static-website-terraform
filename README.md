@@ -1,6 +1,4 @@
-Here is your content in markdown format for your GitHub repository:
 
-```markdown
 # Deploy a Static Website on Azure using Terraform
 
 This guide will walk you through the steps to deploy a static website on Azure using a Storage Account and Terraform.
@@ -82,5 +80,3 @@ You have successfully deployed a static website on Azure using Terraform. For mo
 
 Feel free to customize the HTML files and Terraform configuration to suit your needs. Happy deploying!
 ```
-
-You can replace `<repository-url>` with the actual URL of your repository when needed. This markdown will format the instructions neatly for users visiting your GitHub repository.
